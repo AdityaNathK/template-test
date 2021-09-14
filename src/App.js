@@ -1,11 +1,10 @@
-import "./App.css";
+import "app.scss";
+import Button from "components/atoms/Button/Button";
 
 function App() {
   return (
     <div className="App">
-      <p>
-        Edit <code>src/App.js</code> and save to reload.
-      </p>
+      <h1>React Application</h1>
     </div>
   );
 }
